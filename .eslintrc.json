@@ -7,7 +7,7 @@
     "airbnb-base",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking"
+    "plugin:@typescript-eslint/recommended"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
@@ -17,7 +17,6 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "import/extensions": "never",
-    "explicit-function-return-type": "error"
+    "import/extensions": "off"
   }
 }
