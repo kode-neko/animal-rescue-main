@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-const Test = () => {
-  return (
-    <div>
-      <ul><li>Page 01</li><li>Page 02</li></ul>
-    </div>
-  )
+type TestProps = {
+  name: string
 }
 
-export default Test
+const Test = ({ name }: TestProps) => (
+    <div>
+      Soy el Test {name}
+    </div>
+);
+
+export default Test;
