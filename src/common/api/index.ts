@@ -1,0 +1,1 @@
+export { postMail } from './mail';

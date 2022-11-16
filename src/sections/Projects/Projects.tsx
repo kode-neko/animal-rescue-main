@@ -1,10 +1,11 @@
 import React from 'react';
-import { Grid, Box } from '@mui/material';
+import { Grid } from '@mui/material';
 import { projects } from '../../common/constants';
-import { CardTech } from '../CardTech';
+import { CardTech } from '../../components/CardTech';
+import { Section } from '../../components';
 
-const Gallery = () => (
-    <Box>
+const Projects = () => (
+    <Section title="title.projects" desc="desc.projects">
       <Grid
         container
         direction="row"
@@ -18,7 +19,7 @@ const Gallery = () => (
           </Grid>
         ))}
       </Grid>
-    </Box>
+    </Section>
 );
 
-export default Gallery;
+export default Projects;

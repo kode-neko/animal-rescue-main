@@ -1,11 +1,11 @@
 import { Container, Box, Toolbar } from '@mui/material';
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import style from './App.module.scss';
 import { setUser } from './common/store';
 import {
-  AppBar, Footer, Gallery, Presentation,
+  AppBar, Footer,
 } from './components';
+import { Contact, Presentation, Projects } from './sections';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -18,8 +18,10 @@ const App = () => {
   return (
     <Container maxWidth="md">
       <AppBar />
+      <Box minHeight={100}/>
       <Presentation />
-      <Gallery />
+      <Projects />
+      <Contact />
       <Footer />
     </Container>
   );

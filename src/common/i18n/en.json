@@ -1,10 +1,21 @@
 {
   "title": {
     "long": "KN - Animal Rescue",
-    "short": "AR"
+    "short": "KN AR",
+    "welcome": "¡Bienvenido!",
+    "projects": "Proyectos",
+    "contact": "Contacto"
   },
-  "welcome": "Welcome!",
-  "desc": "An app example about animal rescue using several frameworks",
+  "label": {
+    "send": "Send",
+    "accept": "Accept",
+    "cancel": "Cancel"
+  },
+  "desc" : {
+    "welcome": "Ejemplos de apps creados con distintas librerías/frameworks. Todos girán entorno al mismo ejemplo, un albergue de animales",
+    "projects": "Cada app incluye su enlace y dirección de Github & StackBlitz",
+    "contact": "¿Sugerencias, didas, felicitaciones, propuestas, insul...? Puedes escribirlos en este formulario. Te contestare lo antes posible."
+  },
   "projects": {
     "react": {
       "title": "React Animal Rescue",
