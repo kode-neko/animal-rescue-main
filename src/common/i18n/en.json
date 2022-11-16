@@ -3,5 +3,24 @@
     "long": "KN - Animal Rescue",
     "short": "AR"
   },
-  "desc": "An app example about animal rescue using several frameworks"
+  "welcome": "Welcome!",
+  "desc": "An app example about animal rescue using several frameworks",
+  "projects": {
+    "react": {
+      "title": "React Animal Rescue",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    },
+    "angular": {
+      "title": "Angular Animal Rescue",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    },
+    "vue": {
+      "title": "Vue Animal Rescue",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    },
+    "svelte": {
+      "title": "Svelte Animal Rescue",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+    }
+  }
 }

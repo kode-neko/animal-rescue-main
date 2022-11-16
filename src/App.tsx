@@ -1,13 +1,11 @@
 import { Container, Box, Toolbar } from '@mui/material';
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import {
-  Outlet,
-  Link,
-} from 'react-router-dom';
 import style from './App.module.scss';
 import { setUser } from './common/store';
-import { AppBar } from './components/AppBar';
+import {
+  AppBar, Footer, Gallery, Presentation,
+} from './components';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -18,16 +16,11 @@ const App = () => {
     token: 'qwerty',
   }));
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="md">
       <AppBar />
-      <Box component="main">
-        <Toolbar />
-        <ul>
-          <li><Link to="/test01">Page 01</Link></li>
-          <li><Link to="/test02">Page 02</Link></li>
-        </ul>
-        <Outlet />
-      </Box>
+      <Presentation />
+      <Gallery />
+      <Footer />
     </Container>
   );
 };
