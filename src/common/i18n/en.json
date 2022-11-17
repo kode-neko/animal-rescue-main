@@ -9,12 +9,19 @@
   "label": {
     "send": "Send",
     "accept": "Accept",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "name": "Name",
+    "mail": "E-Mail",
+    "msj": "Message"
   },
-  "desc" : {
-    "welcome": "Ejemplos de apps creados con distintas librerías/frameworks. Todos girán entorno al mismo ejemplo, un albergue de animales",
-    "projects": "Cada app incluye su enlace y dirección de Github & StackBlitz",
+  "desc": {
+    "welcome": "Ejemplos de apps creados con distintas librerías/frameworks. Todos girán entorno al mismo ejemplo, un albergue de animales.",
+    "projects": "Cada app incluye su enlace y dirección de Github & StackBlitz.",
     "contact": "¿Sugerencias, didas, felicitaciones, propuestas, insul...? Puedes escribirlos en este formulario. Te contestare lo antes posible."
+  },
+  "contact": {
+    "succes": "Email was sent succesfully.",
+    "error": "The mail couldn't be seent. Try later."
   },
   "projects": {
     "react": {

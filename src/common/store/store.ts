@@ -1,8 +1,10 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import { userSlice } from './reducers';
+import { userSlice, toastSlice, loadingSlice } from './reducers';
 
 const rootReducer = combineReducers({
   user: userSlice.reducer,
+  toast: toastSlice.reducer,
+  loading: loadingSlice.reducer,
 });
 
 const store = configureStore({

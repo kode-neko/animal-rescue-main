@@ -3,7 +3,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setUser } from './common/store';
 import {
-  AppBar, Footer,
+  AppBar, Footer, Notification,
 } from './components';
 import { Contact, Presentation, Projects } from './sections';
 
@@ -23,6 +23,7 @@ const App = () => {
       <Projects />
       <Contact />
       <Footer />
+      <Notification />
     </Container>
   );
 };
