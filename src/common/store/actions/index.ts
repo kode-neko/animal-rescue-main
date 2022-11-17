@@ -1,4 +1,4 @@
-export { setUser } from './user';
+export { setUser, setLang } from './user';
 export {
   openToast,
   closeToast,

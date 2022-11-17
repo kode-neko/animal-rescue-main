@@ -16,6 +16,9 @@ const reducers = {
     state.lang = action.payload.lang;
     state.token = action.payload.token;
   },
+  setLang: (state: User, action: PayloadAction<Pick<User, 'lang'>>) => {
+    state.lang = action.payload.lang;
+  },
 };
 
 const userSlice = createSlice({

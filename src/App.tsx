@@ -2,6 +2,7 @@ import { Container, Box, Toolbar } from '@mui/material';
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { setUser } from './common/store';
+import { parseLang } from './common/utils';
 import {
   AppBar, Footer, Notification,
 } from './components';
@@ -12,7 +13,7 @@ const App = () => {
   dispatch(setUser({
     name: 'test',
     email: 'test@test.com',
-    lang: 'es',
+    lang: parseLang(navigator.language),
     token: 'qwerty',
   }));
   return (

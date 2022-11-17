@@ -5,6 +5,7 @@ import PetsIcon from '@mui/icons-material/Pets';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
+import { SwitchLang } from '../SwitchLang';
 
 const AppBarCustom = () => {
   const { t } = useTranslation();
@@ -13,9 +14,15 @@ const AppBarCustom = () => {
     <AppBar position="fixed">
       <Toolbar>
         <PetsIcon sx={{ mr: 2 }} />
-        <Typography component="h1" variant="h6" color="inherit">
+        <Typography
+          component="h1"
+          variant="h6"
+          color="inherit"
+          sx={{ flexGrow: 1 }}
+        >
           {t('title.long')}
         </Typography>
+        <SwitchLang />
       </Toolbar>
     </AppBar>
   );
