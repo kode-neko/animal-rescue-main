@@ -9,10 +9,12 @@ const SwitchLang = () => {
   const dispatch = useDispatch();
   const { i18n } = useTranslation();
   const lang = useSelector((status: RootState) => status.user.lang);
-  const handleSwitch = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleSwitch = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = e.target;
     const langNew = value === 'es' ? 'en' : 'es';
-    i18n.changeLanguage(langNew);
+    i18n.changeLanguage(langNew, (err, t) => {
+      console.error(err);
+    });
     dispatch(setLang({ lang: langNew }));
   };
   return (
