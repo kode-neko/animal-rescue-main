@@ -20,7 +20,7 @@ const SwitchLang = () => {
   return (
     <Box display='flex'>
       <FormControlLabel
-        control={<Switch defaultChecked />}
+        control={<Switch defaultChecked color="default"/>}
         value={lang}
         label={lang.toLocaleUpperCase()}
         onChange={(e) => handleSwitch(e as React.ChangeEvent<HTMLInputElement>)}

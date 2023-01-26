@@ -1,13 +1,15 @@
 import React from 'react';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
+import {
+  Card, CardActions, CardContent, CardMedia, Button, IconButton,
+} from '@mui/material';
 import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
-import { Project } from '../../common/model';
+import LinkIcon from '@mui/icons-material/Link';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
+import CodeIcon from '@mui/icons-material/Code';
 import examplePic from '../../assets/contemplative-reptile.jpg';
+import { Project } from '../../common/model';
 
 type CardTechProps = {
   project: Project;
@@ -32,8 +34,13 @@ const CardTech = ({ project }: CardTechProps) => {
         </Typography>
       </CardContent>
       <CardActions >
-        <Button size="small">Share</Button>
-        <Button size="small">Learn More</Button>
+        <Button variant="outlined" size="small" startIcon={<LinkIcon />}>Link</Button>
+        <IconButton aria-label="github">
+          <GitHubIcon />
+        </IconButton>
+        <IconButton aria-label="stackblitz">
+          <CodeIcon />
+        </IconButton>
       </CardActions>
     </Card>
   );

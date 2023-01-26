@@ -19,7 +19,7 @@ const SwitchTheme = () => {
   return (
     <Box display='flex'>
       <FormControlLabel
-        control={<Switch defaultChecked />}
+        control={<Switch defaultChecked color="default" />}
         value={theme}
         label={ theme === ThemeMode.DARK ? <DarkModeIcon fontSize='medium'/> : <LightModeIcon fontSize='medium'/>}
         onChange={(e) => handleSwitch(e as React.ChangeEvent<HTMLInputElement>)}

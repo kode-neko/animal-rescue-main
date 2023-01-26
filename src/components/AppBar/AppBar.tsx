@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { AppBar, IconButton, Box } from '@mui/material';
+import {
+  AppBar, Box, Typography, Toolbar,
+} from '@mui/material';
 import PetsIcon from '@mui/icons-material/Pets';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import { SwitchLang } from '../SwitchLang';
 import { SwitchTheme } from '../SwitchTheme';
@@ -22,7 +22,10 @@ const AppBarCustom = () => {
         >
           {t('title.long')}
         </Typography>
-        <Box display="flex" sx={{ flexDirection: { xs: 'column', sm: 'row' } }}>
+        <Box
+          display="flex"
+          sx={{ flexDirection: { xs: 'column', sm: 'row' } }}
+        >
           <SwitchTheme />
           <SwitchLang />
         </Box>
