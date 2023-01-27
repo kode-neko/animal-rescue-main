@@ -1,5 +1,5 @@
 {
-  "title": {
+  "main-title": {
     "long": "KN - Animal Rescue",
     "short": "KN AR",
     "welcome": "Welcome!",
@@ -41,5 +41,47 @@
       "title": "Svelte",
       "desc": "Svelte 3 - Svelte Material UI"
     }
+  },
+  "title": {
+    "img-react": "React Picture",
+    "img-angular": "Angular Picture",
+    "img-vue": "Vue Picture",
+    "img-svelte": "Svelte Picture",
+    
+    "demo-react": "React Demo Link",
+    "demo-angular": "Angular Demo Link",
+    "demo-vue": "Vue Demo Link",
+    "demo-svelte": "Svelte Demo Link",
+
+    "github-react": "React Github Link",
+    "github-angular": "Angular Github Link",
+    "github-vue": "Vue Github Link",
+    "github-svelte": "Svelte Github Link",
+
+    "stackblitz-react": "React StackBlitz Link" ,
+    "stackblitz-angular": "React StackBlitz Link" ,
+    "stackblitz-vue": "React StackBlitz Link" ,
+    "stackblitz-svelte": "React StackBlitz Link"
+  },
+  "alt": {
+    "img-react": "React Picture",
+    "img-angular": "Angular Picture",
+    "img-vue": "Vue Picture",
+    "img-svelte": "Svelte Picture",
+    
+    "demo-react": "React Demo Link",
+    "demo-angular": "Angular Demo Link",
+    "demo-vue": "Vue Demo Link",
+    "demo-svelte": "Svelte Demo Link",
+
+    "github-react": "React Github Link",
+    "github-angular": "Angular Github Link",
+    "github-vue": "Vue Github Link",
+    "github-svelte": "Svelte Github Link",
+
+    "stackblitz-react": "React StackBlitz Link" ,
+    "stackblitz-angular": "React StackBlitz Link" ,
+    "stackblitz-vue": "React StackBlitz Link" ,
+    "stackblitz-svelte": "React StackBlitz Link"
   }
 }

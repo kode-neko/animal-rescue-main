@@ -20,7 +20,7 @@ const AppBarCustom = () => {
           color="inherit"
           sx={{ flexGrow: 1 }}
         >
-          {t('title.long')}
+          {t('main-title.long')}
         </Typography>
         <Box
           display="flex"

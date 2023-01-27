@@ -6,9 +6,7 @@ import Typography from '@mui/material/Typography';
 import { useTranslation } from 'react-i18next';
 import LinkIcon from '@mui/icons-material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import ElectricBoltIcon from '@mui/icons-material/ElectricBolt';
 import CodeIcon from '@mui/icons-material/Code';
-import examplePic from '../../assets/contemplative-reptile.jpg';
 import { Project } from '../../common/model';
 
 type CardTechProps = {
@@ -17,15 +15,16 @@ type CardTechProps = {
 
 const CardTech = ({ project }: CardTechProps) => {
   const { t } = useTranslation();
-  console.log('nanai: ', import.meta.url)
-  const imgUrl = new URL('../../assets/' + project.img, import.meta.url).href
+
+  const imgUrl = new URL(`../../assets/${project.img.url}`, import.meta.url).href;
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         height="140"
         image={imgUrl}
-        alt="green iguana"
+        title={project.img.title}
+        alt={project.img.alt}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
@@ -36,11 +35,16 @@ const CardTech = ({ project }: CardTechProps) => {
         </Typography>
       </CardContent>
       <CardActions >
-        <Button variant="outlined" size="small" startIcon={<LinkIcon />}>Demo</Button>
-        <IconButton aria-label="github">
+        <Button
+          onClick={() => window.open(project.demo.url, '_blank')}
+          variant="outlined"
+          size="small"
+          startIcon={<LinkIcon />}
+        >Demo</Button>
+        <IconButton onClick={() => window.open(project.github.url, '_blank')} aria-label="github">
           <GitHubIcon />
         </IconButton>
-        <IconButton aria-label="stackblitz">
+        <IconButton onClick={() => window.open(project.stackblitz.url, '_blank')} aria-label="stackblitz">
           <CodeIcon />
         </IconButton>
       </CardActions>
