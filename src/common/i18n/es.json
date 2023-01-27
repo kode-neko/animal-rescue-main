@@ -6,6 +6,7 @@
     "projects": "Proyectos",
     "contact": "Contacto"
   },
+  "credentials": "Kodeneko © 2023",
   "label": {
     "send": "Enviar",
     "accept": "Aceptar",
@@ -15,8 +16,8 @@
     "msj": "Mensaje"
   },
   "desc": {
-    "welcome": "Ejemplos de apps creados con distintas librerías/frameworks. Todos girán entorno al mismo ejemplo, un albergue de animales.",
-    "projects": "Cada app incluye su enlace y dirección de Github & StackBlitz.",
+    "welcome": "Animal Rescue es una app de ejemplo para la gestión de un albergue de animales. Están creados con distintas librerías/frameworks.",
+    "projects": "Cada app incluye una demostración y accesos a sus Github & StackBlitz.",
     "contact": "¿Sugerencias, didas, felicitaciones, propuestas, insul...? Puedes escribirlos en este formulario. Te contestare lo antes posible."
   },
   "contact": {
@@ -25,20 +26,20 @@
   },
   "projects": {
     "react": {
-      "title": "React Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "React",
+      "desc": "Versión 18 - Redux - Material UI"
     },
     "angular": {
-      "title": "Angular Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Angular",
+      "desc": "Version 15 - Angular Material"
     },
     "vue": {
-      "title": "Vue Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Vue",
+      "desc": "Vue 3 - Options API - Vue Material"
     },
     "svelte": {
-      "title": "Svelte Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Svelte",
+      "desc": "Svelte 3 - Svelte Material UI"
     }
   }
 }

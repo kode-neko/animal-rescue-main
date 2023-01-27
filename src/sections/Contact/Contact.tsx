@@ -60,7 +60,7 @@ const Contact = () => {
             placeholder="Escribe el mensaje"
             rows={6}
             multiline
-            value={form.body}
+            value={form.msj}
             onChange={handleChange}
           />
         </FormControl>

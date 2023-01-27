@@ -2,10 +2,11 @@
   "title": {
     "long": "KN - Animal Rescue",
     "short": "KN AR",
-    "welcome": "¡Bienvenido!",
-    "projects": "Proyectos",
-    "contact": "Contacto"
+    "welcome": "Welcome!",
+    "projects": "Projects",
+    "contact": "Contact"
   },
+  "credentials": "Kodeneko © 2023",
   "label": {
     "send": "Send",
     "accept": "Accept",
@@ -15,9 +16,9 @@
     "msj": "Message"
   },
   "desc": {
-    "welcome": "Ejemplos de apps creados con distintas librerías/frameworks. Todos girán entorno al mismo ejemplo, un albergue de animales.",
-    "projects": "Cada app incluye su enlace y dirección de Github & StackBlitz.",
-    "contact": "¿Sugerencias, didas, felicitaciones, propuestas, insul...? Puedes escribirlos en este formulario. Te contestare lo antes posible."
+    "welcome": "Animal Rescue is an app example to manage an animal rescue. There are created by several libs/frameworks.",
+    "projects": "Each app includes a demo and links to Gthub & StackBlitz.",
+    "contact": "Suggestions, doubts, congrats, propousals, insul...? You can write them in this form. I will answer you as soon as possible."
   },
   "contact": {
     "succes": "Email was sent succesfully.",
@@ -25,20 +26,20 @@
   },
   "projects": {
     "react": {
-      "title": "React Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "React",
+      "desc": "Versión 18 - Redux - Material UI"
     },
     "angular": {
-      "title": "Angular Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Angular",
+      "desc": "Version 15 - Angular Material"
     },
     "vue": {
-      "title": "Vue Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Vue",
+      "desc": "Vue 3 - Options API - Vue Material"
     },
     "svelte": {
-      "title": "Svelte Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Svelte",
+      "desc": "Svelte 3 - Svelte Material UI"
     }
   }
 }
