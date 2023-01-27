@@ -17,12 +17,14 @@ type CardTechProps = {
 
 const CardTech = ({ project }: CardTechProps) => {
   const { t } = useTranslation();
+  console.log('nanai: ', import.meta.url)
+  const imgUrl = new URL('../../assets/' + project.img, import.meta.url).href
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         height="140"
-        image={examplePic}
+        image={imgUrl}
         alt="green iguana"
       />
       <CardContent>

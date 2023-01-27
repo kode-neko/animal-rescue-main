@@ -5,6 +5,7 @@ interface Project {
   tech: Tech;
   title: string;
   desc: string;
+  img: string;
 }
 
 export default Project;
