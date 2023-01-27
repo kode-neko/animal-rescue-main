@@ -26,15 +26,15 @@ const CardTech = ({ project }: CardTechProps) => {
         alt="green iguana"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div" sx={{ minHeight: 64 }}>
+        <Typography gutterBottom variant="h5" component="div">
           {t(project.title)}
         </Typography>
-        <Typography variant="body2" color="text.secondary" sx={{ minHeight: 100 }}>
+        <Typography variant="body2" color="text.secondary">
           {t(project.desc)}
         </Typography>
       </CardContent>
       <CardActions >
-        <Button variant="outlined" size="small" startIcon={<LinkIcon />}>Link</Button>
+        <Button variant="outlined" size="small" startIcon={<LinkIcon />}>Demo</Button>
         <IconButton aria-label="github">
           <GitHubIcon />
         </IconButton>
