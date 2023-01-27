@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <Section title={'title.contact'} desc={'desc.contact'}>
+    <Section title={'main-title.contact'} desc={'desc.contact'}>
       <Box component="form">
         <FormControl fullWidth sx={{ my: 1 }}>
           <TextField

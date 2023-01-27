@@ -5,7 +5,7 @@ import { CardTech } from '../../components/CardTech';
 import { Section } from '../../components';
 
 const Projects = () => (
-    <Section title="title.projects" desc="desc.projects">
+    <Section title="main-title.projects" desc="desc.projects">
       <Grid
         container
         direction="row"
