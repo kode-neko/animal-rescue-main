@@ -115,6 +115,13 @@ const projects: Project[] = [
   svelteProject,
 ];
 
+const social = {
+  twitter: 'https://twitter.com/KodenekoFront',
+  github: 'https://github.com/kode-neko',
+  linkedin: '',
+};
+
 export {
   projects,
+  social,
 };
