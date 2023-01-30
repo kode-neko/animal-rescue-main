@@ -1,7 +1,7 @@
 interface Mail {
   name: string;
   mail: string;
-  msj: string;
+  content: string;
 }
 
 export default Mail;
