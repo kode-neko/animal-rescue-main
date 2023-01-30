@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import {
   Box,
   TextField,
@@ -17,11 +17,13 @@ const Contact = () => {
   const { t } = useTranslation();
   const isSendingMail = useSelector((state: RootState) => state.loading.sendingMail);
   const dispatch = useDispatch();
+
   const schema = yup.object().shape({
     name: yup.string().max(50).required(),
     mail: yup.string().email().required(),
     content: yup.string().max(500),
   });
+
   const formik = useFormik({
     initialValues: { name: '', mail: '', content: '' },
     validationSchema: schema,
