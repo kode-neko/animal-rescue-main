@@ -13,7 +13,7 @@
     "cancel": "Cancel",
     "name": "Name",
     "mail": "E-Mail",
-    "msj": "Message"
+    "content": "Message"
   },
   "desc": {
     "welcome": "Animal Rescue is an app example to manage an animal rescue. There are created by several libs/frameworks.",

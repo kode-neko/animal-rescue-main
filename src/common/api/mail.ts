@@ -1,9 +1,10 @@
+import { Mail } from '../model';
 import { POST_MAIL } from '../urls';
 
-function postMail(): Promise<Response> {
+function postMail(mail: Mail): Promise<Response> {
   return fetch(POST_MAIL, {
-    method: 'post',
-    body: 'json',
+    method: 'POST',
+    body: JSON.stringify(mail),
   })
     .then((data) => data.json());
 }

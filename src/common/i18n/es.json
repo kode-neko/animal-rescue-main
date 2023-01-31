@@ -13,7 +13,7 @@
     "cancel": "Cancelar",
     "name": "Nombre",
     "mail": "E-Mail",
-    "msj": "Mensaje"
+    "content": "Mensaje"
   },
   "desc": {
     "welcome": "Animal Rescue es una app de ejemplo para la gestión de un albergue de animales. Están creados con distintas librerías/frameworks.",
