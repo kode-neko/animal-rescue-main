@@ -1,44 +1,87 @@
 {
-  "title": {
+  "main-title": {
     "long": "KN - Animal Rescue",
     "short": "KN AR",
     "welcome": "¡Bienvenido!",
     "projects": "Proyectos",
     "contact": "Contacto"
   },
+  "credentials": "Kodeneko © 2023",
   "label": {
     "send": "Enviar",
     "accept": "Aceptar",
     "cancel": "Cancelar",
     "name": "Nombre",
     "mail": "E-Mail",
-    "msj": "Mensaje"
+    "content": "Mensaje"
   },
   "desc": {
-    "welcome": "Ejemplos de apps creados con distintas librerías/frameworks. Todos girán entorno al mismo ejemplo, un albergue de animales.",
-    "projects": "Cada app incluye su enlace y dirección de Github & StackBlitz.",
+    "welcome": "Animal Rescue es una app de ejemplo para la gestión de un albergue de animales. Están creados con distintas librerías/frameworks.",
+    "projects": "Cada app incluye una demostración y accesos a sus Github & StackBlitz.",
     "contact": "¿Sugerencias, didas, felicitaciones, propuestas, insul...? Puedes escribirlos en este formulario. Te contestare lo antes posible."
   },
   "contact": {
-    "succes": "Correo enviado con éxito.",
-    "error": "No se pudo enviar el correo. Inténtelo ás tarde."
+    "success": "Correo enviado con éxito",
+    "error": "No se pudo enviar el correo. Inténtelo ás tarde"
   },
   "projects": {
     "react": {
-      "title": "React Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "React",
+      "desc": "Versión 18 - Redux - Material UI"
     },
     "angular": {
-      "title": "Angular Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Angular",
+      "desc": "Version 15 - Angular Material"
     },
     "vue": {
-      "title": "Vue Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Vue",
+      "desc": "Vue 3 - Options API - Vue Material"
     },
     "svelte": {
-      "title": "Svelte Animal Rescue",
-      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque velit nisi, pretium ut lacinia in, elementum id enim."
+      "title": "Svelte",
+      "desc": "Svelte 3 - Svelte Material UI"
     }
+  },
+  "title": {
+    "img-react": "Imagen React",
+    "img-angular": "Imagen Angular",
+    "img-vue": "Imagen Vue",
+    "img-svelte": "Imagen Svelte",
+
+    "demo-react": "Enlace demo React",
+    "demo-angular": "Enlace demo Angular",
+    "demo-vue": "Enlace demo Vue",
+    "demo-svelte": "Enlace demo Svelte",
+
+    "github-react": "Enlace Github React",
+    "github-angular": "Enlace Github Angular",
+    "github-vue": "Enlace Github Vue",
+    "github-svelte": "Enlace Github Svelte",
+
+    "stackblitz-react": "Enlace StackBlitz React",
+    "stackblitz-angular": "Enlace StackBlitz Angular",
+    "stackblitz-vue": "Enlace StackBlitz Vue",
+    "stackblitz-svelte": "Enlace StackBlitz Svelte"
+  },
+  "alt": {
+    "img-react": "Imagen de React",
+    "img-angular": "Imagen de Angular",
+    "img-vue": "Imagen de Vue",
+    "img-svelte": "Imagen de Svelte",
+
+    "demo-react": "Enlace de la demo de React",
+    "demo-angular": "Enlace de a la demo de Angular",
+    "demo-vue": "Enlace de a la demo de Vue",
+    "demo-svelte": "Enlace de a la demo de Svelte",
+
+    "github-react": "Enlace del repositorio Github de React",
+    "github-angular": "Enlace del repositorio Github de Angular",
+    "github-vue": "Enlace del repositorio Github de Vue",
+    "github-svelte": "Enlace del repositorio Github de Svelte",
+
+    "stackblitz-react": "Enlace del proyecto Stackblitz de React",
+    "stackblitz-angular": "Enlace del proyecto Stackblitz de Angular",
+    "stackblitz-vue": "Enlace del proyecto Stackblitz de Vue",
+    "stackblitz-svelte": "Enlace del proyecto Stackblitz de Svelte"
   }
 }

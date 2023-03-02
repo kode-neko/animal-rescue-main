@@ -5,7 +5,7 @@ import Toast from '../../model/Toast';
 
 const initialState: Toast = {
   open: false,
-  type: null,
+  type: undefined,
   msg: '',
 };
 
@@ -17,7 +17,7 @@ const reducers = {
   },
   closeToast: (state: Toast) => {
     state.open = false;
-    state.type = null;
+    state.type = undefined;
     state.msg = '';
   },
 };

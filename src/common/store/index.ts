@@ -5,4 +5,5 @@ export {
   setLang,
   openToast,
   closeToast,
+  setSendingMail,
 } from './actions';
