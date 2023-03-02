@@ -21,8 +21,8 @@
     "contact": "Suggestions, doubts, congrats, propousals, insul...? You can write them in this form. I will answer you as soon as possible."
   },
   "contact": {
-    "succes": "Email was sent succesfully.",
-    "error": "The mail couldn't be seent. Try later."
+    "success": "Email was sent succesfully",
+    "error": "The mail couldn't be seent. Try later"
   },
   "projects": {
     "react": {

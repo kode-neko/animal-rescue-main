@@ -21,8 +21,8 @@
     "contact": "¿Sugerencias, didas, felicitaciones, propuestas, insul...? Puedes escribirlos en este formulario. Te contestare lo antes posible."
   },
   "contact": {
-    "succes": "Correo enviado con éxito.",
-    "error": "No se pudo enviar el correo. Inténtelo ás tarde."
+    "success": "Correo enviado con éxito",
+    "error": "No se pudo enviar el correo. Inténtelo ás tarde"
   },
   "projects": {
     "react": {

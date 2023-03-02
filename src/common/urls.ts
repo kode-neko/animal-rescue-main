@@ -1,5 +1,12 @@
-const POST_MAIL = 'http://localhost:3001/contact';
+const {
+  VITE_API_PROTOCOL: API_PROTOCOL,
+  VITE_API_SERVER: SERVER_PORT,
+  VITE_API_PORT: SERVER_URL,
+} = import.meta.env;
+const API_MAIL = `${API_PROTOCOL}${SERVER_PORT}:${SERVER_URL}/`;
+
+const API_MAIL_SEND = `${API_MAIL}contact`;
 
 export {
-  POST_MAIL,
+  API_MAIL_SEND,
 };
