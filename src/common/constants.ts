@@ -20,11 +20,6 @@ const reactProject: Project = {
     alt: 'alt.github-react',
     title: 'title.github-react',
   },
-  stackblitz: {
-    url: 'https://stackblitz.com/edit/vitejs-vite-vzzupr?file=package.json',
-    alt: 'alt.stackblitz-react',
-    title: 'title.stackblitz-react',
-  },
 };
 
 const angularProject: Project = {
@@ -47,11 +42,6 @@ const angularProject: Project = {
     alt: 'alt.github-angular',
     title: 'title.github-angular',
   },
-  stackblitz: {
-    url: 'https://stackblitz.com/edit/angular-ivy-js24lt?file=src/app/app.component.ts',
-    alt: 'alt.stackblitz-angular',
-    title: 'title.stackblitz-angular',
-  },
 };
 
 const vueProject: Project = {
@@ -65,19 +55,14 @@ const vueProject: Project = {
     title: 'title.img-react',
   },
   demo: {
-    url: 'http://www.kodeneko.com/ar/react',
+    url: 'http://www.kodeneko.com/ar/vue',
     alt: 'alt.demo-vue',
     title: 'title.demo-vue',
   },
   github: {
-    url: 'https://github.com/kode-neko/animal-rescue-react.git',
+    url: 'https://github.com/kode-neko/animal-rescue-vue.git',
     alt: 'alt.github-vue',
     title: 'title.github-vue',
-  },
-  stackblitz: {
-    url: 'https://stackblitz.com/edit/vitejs-vite-vzzupr?file=package.json',
-    alt: 'alt.stackblitz-vue',
-    title: 'title.stackblitz-vue',
   },
 };
 
@@ -101,18 +86,13 @@ const svelteProject: Project = {
     alt: 'alt.github-svelte',
     title: 'title.github-svelte',
   },
-  stackblitz: {
-    url: 'https://stackblitz.com/edit/vitejs-vite-crqjgx?file=README.md',
-    alt: 'alt.stackblitz-svelte',
-    title: 'title.stackblitz-svelte',
-  },
 };
 
 const projects: Project[] = [
   reactProject,
   angularProject,
   vueProject,
-  svelteProject,
+  // svelteProject,
 ];
 
 const social = {

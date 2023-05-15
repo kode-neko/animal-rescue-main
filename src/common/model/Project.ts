@@ -9,7 +9,7 @@ interface Project {
   img: Link;
   demo: Link;
   github: Link;
-  stackblitz: Link;
+  stackblitz?: Link;
 }
 
 export default Project;
