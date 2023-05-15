@@ -44,10 +44,13 @@ const CardTech = ({ project }: CardTechProps) => {
         <IconButton onClick={() => window.open(project.github.url, '_blank')} aria-label="github">
           <GitHubIcon />
         </IconButton>
-        <IconButton onClick={() => window.open(project.stackblitz.url, '_blank')} aria-label="stackblitz">
+        {/*
+        <IconButton
+          onClick={() => window.open(project.stackblitz.url, '_blank')} aria-label="stackblitz"
+        >
           <CodeIcon />
-        </IconButton>
-      </CardActions>
+        </IconButton> */}
+  </CardActions>
     </Card>
   );
 };
