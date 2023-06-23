@@ -58,7 +58,7 @@ const AppBarCustom = () => {
             aria-label="delete"
             size="large"
           >
-            <ShareIcon fontSize="inherit" />
+            <ShareIcon variant="mainbar" fontSize="inherit" />
           </IconButton>
           <Menu
             id="fade-menu"

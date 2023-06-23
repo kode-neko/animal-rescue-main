@@ -18,7 +18,7 @@ const CardTech = ({ project }: CardTechProps) => {
 
   const imgUrl = new URL(`../../assets/${project.img.url}`, import.meta.url).href;
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card elevation={3} sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
         height="140"
