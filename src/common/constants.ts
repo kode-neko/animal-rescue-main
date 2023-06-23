@@ -1,5 +1,7 @@
 import { Project, Tech } from './model';
 
+const {VITE_REACT, VITE_ANGULAR, VITE_VUE_2} = import.meta.env;
+
 const reactProject: Project = {
   id: '1',
   tech: Tech.REACT,
@@ -11,7 +13,7 @@ const reactProject: Project = {
     title: 'title.img-react',
   },
   demo: {
-    url: 'http://www.kodeneko.com/ar/react',
+    url: VITE_REACT,
     alt: 'alt.demo-react',
     title: 'title.demo-react',
   },
@@ -33,7 +35,7 @@ const angularProject: Project = {
     title: 'title.img-react',
   },
   demo: {
-    url: 'http://www.kodeneko.com/ar/angular',
+    url: VITE_ANGULAR,
     alt: 'alt.demo-angular',
     title: 'title.demo-angular',
   },
@@ -55,7 +57,7 @@ const vueProject: Project = {
     title: 'title.img-react',
   },
   demo: {
-    url: 'http://www.kodeneko.com/ar/vue',
+    url: VITE_VUE_2,
     alt: 'alt.demo-vue',
     title: 'title.demo-vue',
   },
@@ -98,7 +100,9 @@ const projects: Project[] = [
 const social = {
   twitter: 'https://twitter.com/KodenekoFront',
   github: 'https://github.com/kode-neko',
-  linkedin: '',
+  codepen: 'https://codepen.io/kodeneko',
+  stackblitz: 'https://stackblitz.com/@kode-neko',
+  figma: 'https://figma.com/@kodeneko'
 };
 
 export {
