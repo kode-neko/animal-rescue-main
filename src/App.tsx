@@ -1,11 +1,11 @@
-import React, { useEffect, useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import {
   Container, Box, createTheme, CssBaseline,
 } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
 import { ThemeProvider } from '@emotion/react';
 import { ThemeMode } from './common/model';
-import { RootState, setUser, store } from './common/store';
+import { RootState, setUser } from './common/store';
 import { parseLang } from './common/utils';
 import {
   AppBar,
@@ -14,12 +14,30 @@ import {
 } from './components';
 import { Contact, Presentation, Projects } from './sections';
 
+declare module '@mui/material/SvgIcon' {
+  interface SvgIconPropsVariantOverrides {
+    mainbar: false;
+  }
+}
+
 const App = () => {
   const mode = useSelector((state: RootState) => state.user.theme);
   const theme = useMemo(
     () => (createTheme({
       palette: {
         mode: mode === ThemeMode.DARK ? ThemeMode.DARK : ThemeMode.LIGHT,
+      },
+      components: {
+        MuiSvgIcon: {
+          variants: [
+            {
+              props: { variant: 'mainbar' },
+              style: {
+                fill: mode === ThemeMode.DARK ? 'white' : 'white',
+              },
+            },
+          ],
+        }
       },
     })),
     [mode],
@@ -47,6 +65,7 @@ const App = () => {
         <Contact />
         <Footer />
         <Notification />
+
       </Container>
     </ThemeProvider>
   );
